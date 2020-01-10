@@ -1,4 +1,6 @@
 # thesallab.alllogger
+![The SaL Lab](sallab.png)
+
 AllLogger is a toolset used by the SaL Lab to log volunteers' search
  behaviors. It consists of the following tools:
 * A .NET executable to log:

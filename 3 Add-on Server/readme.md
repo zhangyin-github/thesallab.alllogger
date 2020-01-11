@@ -1,5 +1,5 @@
 # AllLogger Add-on Server
-The AllLogger Add-on Server is to work with the [AllLogger Firefox/Chrome add-on](../3%20Add-on)
+The AllLogger Add-on Server is to work with the [AllLogger Firefox/Chrome add-on](../2%20Add-on)
  to log data into MongoDB.
 ## Dependencies
 The AllLogger Add-on Server use maven to manage all the dependencies. However,

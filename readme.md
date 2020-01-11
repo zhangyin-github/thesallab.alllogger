@@ -12,7 +12,7 @@ AllLogger is a toolset used by the SaL Lab to log volunteers' search
 * A Firefox/Chrome add-on to log:
   * web page requests and referrers,
   * activations of tabs.
-* A server endpoint to work with the Firefox/Chrome add-on.
+* [A server endpoint to work with the Firefox/Chrome add-on](3%20Add-on%20Server).
 * [A Visual Studio extension to snapshot the active code tab](4%20Extension).
 ## License
 AllLogger is open-source under the MIT license. But please let us know if

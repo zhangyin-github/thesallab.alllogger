@@ -5,7 +5,7 @@ The AllLogger Add-on Server is to work with the [AllLogger Firefox/Chrome add-on
 The AllLogger Add-on Server use maven to manage all the dependencies. However,
  [thesallab.configuration](https://github.com/zhangyin-github/thesallab.configuration)
  and
- [thesallab.foundation](https://github.com/zhangyin-github/thesallab.configuration)
+ [thesallab.foundation](https://github.com/zhangyin-github/thesallab.foundation)
  have to be installed manually using maven.
 
 Apache Tomcat 8.0/8.5 and MongoDB 3.4 are required to run the AllLogger Add-on

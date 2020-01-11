@@ -1,0 +1,64 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>cn.edu.neu.uvp</groupId>
+    <artifactId>alllogger.server</artifactId>
+    <version>1.0</version>
+    <packaging>war</packaging>
+
+    <name>alllogger.server</name>
+    <url>http://maven.apache.org</url>
+
+    <build>
+        <finalName>alllogger.server</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                    <compilerArguments>
+                        <bootclasspath>${JAVA_HOME}/jre/lib/rt.jar
+                        </bootclasspath>
+                    </compilerArguments>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <repositories>
+        <repository>
+            <id>lib</id>
+            <url>file://${project.basedir}/lib</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.thesallab</groupId>
+            <artifactId>thesallab.configuration</artifactId>
+            <version>1.5</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.thesallab</groupId>
+            <artifactId>thesallab.foundation</artifactId>
+            <version>1.5</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>4.1.12.Final</version>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.websocket</groupId>
+            <artifactId>javax.websocket-api</artifactId>
+            <version>1.1</version>
+        </dependency>
+    </dependencies>
+</project>

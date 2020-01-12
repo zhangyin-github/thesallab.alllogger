@@ -1,0 +1,23 @@
+{
+  "author": "The SaL Lab",
+  "name": "AllLogger Chrome Addon",
+  "description": "AllLogger Chrome Addon by the SaL lab.",
+  "manifest_version": 2,
+  "version": "1.0",
+  "applications": {
+    "gecko": {
+      "id": "alllogger_chrome_addon@uvp.neu.edu.cn"
+    }
+  },
+  "permissions": [
+    "<all_urls>",
+    "webNavigation",
+    "tabs"
+  ],
+  "background": {
+    "scripts": [
+      "backgroundScripts/websocket.js",
+      "backgroundScripts/allLog.js"
+    ]
+  }
+}

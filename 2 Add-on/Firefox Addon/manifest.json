@@ -1,0 +1,23 @@
+{
+  "author": "The SaL Lab",
+  "name": "AllLogger Firefox Addon",
+  "description": "AllLogger Firefox Addon by the SaL lab.",
+  "manifest_version": 2,
+  "version": "1.0",
+  "applications": {
+    "gecko": {
+      "id": "alllogger_firefox_addon@uvp.neu.edu.cn"
+    }
+  },
+  "permissions": [
+    "<all_urls>",
+    "webNavigation",
+    "tabs"
+  ],
+  "background": {
+    "scripts": [
+      "backgroundScripts/websocket.js",
+      "backgroundScripts/allLog.js"
+    ]
+  }
+}

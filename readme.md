@@ -9,7 +9,7 @@ AllLogger is a toolset used by the SaL Lab to log volunteers' search
   * clipboard changes,
   * title changes of active windows,
   * eye fixations (not available in the open-source edition due to law issues).
-* A Firefox/Chrome add-on to log:
+* [A Firefox/Chrome add-on](2%20Add-on) to log:
   * web page requests and referrers,
   * activations of tabs.
 * [A server endpoint to work with the Firefox/Chrome add-on](3%20Add-on%20Server).

@@ -3,7 +3,7 @@
 
 AllLogger is a toolset used by the SaL Lab to log volunteers' search
  behaviors. It consists of the following tools:
-* A .NET executable to log:
+* [A .NET executable](1%20Executable) to log:
   * keyboard key presses,
   * mouse key presses and movements,
   * clipboard changes,
